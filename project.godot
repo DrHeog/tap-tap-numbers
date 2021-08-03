@@ -11,7 +11,16 @@ config_version=4
 [application]
 
 config/name="tap tap numbers"
+run/main_scene="res://scenes/лобби/DungeonRoom#1.tscn"
 config/icon="res://icon.png"
+
+[display]
+
+window/size/width=720
+window/size/height=1080
+window/handheld/orientation="portrait"
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
 
 [physics]
 
