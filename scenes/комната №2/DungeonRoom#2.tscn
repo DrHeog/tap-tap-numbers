@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=29 format=2]
 
 [ext_resource path="res://sprites/комната №2/tileset/Иллюстрация_без_названия 8.png" type="Texture" id=1]
 [ext_resource path="res://sprites/комната №2/tileset/Иллюстрация_без_названия 7.png" type="Texture" id=2]
@@ -25,6 +25,8 @@
 [ext_resource path="res://sprites/комната №2/ковёр/Иллюстрация_без_названия 6.png" type="Texture" id=23]
 [ext_resource path="res://sprites/комната №2/ковёр/Иллюстрация_без_названия 5.png" type="Texture" id=24]
 [ext_resource path="res://sprites/комната №2/ковёр/Иллюстрация_без_названия 1.png" type="Texture" id=25]
+[ext_resource path="res://sprites/комната №2/tileset/центрушка2.png" type="Texture" id=26]
+[ext_resource path="res://sprites/комната №2/tileset/центрушка1.png" type="Texture" id=27]
 
 [sub_resource type="TileSet" id=1]
 0/name = "Иллюстрация_без_названия 1.png 0"
@@ -377,6 +379,34 @@
 24/shape_one_way_margin = 0.0
 24/shapes = [  ]
 24/z_index = 0
+25/name = "центрушка1.png 25"
+25/texture = ExtResource( 27 )
+25/tex_offset = Vector2( 0, 0 )
+25/modulate = Color( 1, 1, 1, 1 )
+25/region = Rect2( 0, 0, 144, 144 )
+25/tile_mode = 0
+25/occluder_offset = Vector2( 0, 0 )
+25/navigation_offset = Vector2( 0, 0 )
+25/shape_offset = Vector2( 0, 0 )
+25/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+25/shape_one_way = false
+25/shape_one_way_margin = 0.0
+25/shapes = [  ]
+25/z_index = 0
+26/name = "центрушка2.png 26"
+26/texture = ExtResource( 26 )
+26/tex_offset = Vector2( 0, 0 )
+26/modulate = Color( 1, 1, 1, 1 )
+26/region = Rect2( 0, 0, 144, 144 )
+26/tile_mode = 0
+26/occluder_offset = Vector2( 0, 0 )
+26/navigation_offset = Vector2( 0, 0 )
+26/shape_offset = Vector2( 0, 0 )
+26/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+26/shape_one_way = false
+26/shape_one_way_margin = 0.0
+26/shapes = [  ]
+26/z_index = 0
 
 [node name="Node2D" type="Node2D"]
 
@@ -386,4 +416,4 @@
 tile_set = SubResource( 1 )
 cell_size = Vector2( 72, 72 )
 format = 1
-tile_data = PoolIntArray( 196608, 11, 0, 196610, 4, 0, 196612, 12, 0, 196614, 3, 0, 196616, 2, 0, 327680, 8, 0, 327682, 24, 0, 327684, 20, 0, 327686, 16, 0, 327688, 10, 0, 458752, 13, 0, 458754, 22, 0, 458756, 23, 0, 458758, 21, 0, 458760, 15, 0, 589824, 8, 0, 589826, 17, 0, 589828, 19, 0, 589830, 18, 0, 589832, 9, 0, 720896, 1, 0, 720898, 7, 0, 720900, 14, 0, 720902, 5, 0, 720904, 0, 0 )
+tile_data = PoolIntArray( 131070, 11, 0, 65536, 4, 0, 65538, 3, 0, 65540, 12, 0, 65542, 3, 0, 65544, 4, 0, 65546, 2, 0, 262142, 8, 0, 196608, 26, 0, 196610, 25, 0, 196612, 25, 0, 196614, 26, 0, 196616, 26, 0, 196618, 10, 0, 393214, 8, 0, 327680, 24, 0, 327682, 20, 0, 327684, 20, 0, 327686, 20, 0, 327688, 16, 0, 327690, 9, 0, 524286, 13, 0, 458752, 22, 0, 458754, 23, 0, 458756, 23, 0, 458758, 23, 0, 458760, 21, 0, 458762, 15, 0, 655358, 8, 0, 589824, 17, 0, 589826, 19, 0, 589828, 19, 0, 589830, 19, 0, 589832, 18, 0, 589834, 10, 0, 786430, 8, 0, 720896, 25, 0, 720898, 26, 0, 720900, 25, 0, 720902, 26, 0, 720904, 26, 0, 720906, 9, 0, 917502, 1, 0, 851968, 7, 0, 851970, 6, 0, 851972, 14, 0, 851974, 7, 0, 851976, 6, 0, 851978, 0, 0 )
