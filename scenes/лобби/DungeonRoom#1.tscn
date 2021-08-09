@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://sprites/лобби/tileset/Иллюстрация_без_названия.png" type="Texture" id=1]
 [ext_resource path="res://sprites/лобби/tileset(animated)/лобби_дверь_верх.tres" type="Texture" id=2]
 [ext_resource path="res://sprites/лобби/tileset(animated)/лобби_дверь_право.tres" type="Texture" id=3]
 [ext_resource path="res://sprites/лобби/tileset(animated)/лобби_дверь_лево.tres" type="Texture" id=4]
 [ext_resource path="res://sprites/лобби/tileset(animated)/лобби_дверь_низ .tres" type="Texture" id=5]
+[ext_resource path="res://scenes/fields.tscn" type="PackedScene" id=6]
 [ext_resource path="res://sprites/лобби/tileset/уголок.png" type="Texture" id=9]
 [ext_resource path="res://sprites/лобби/tileset/центрушка.png" type="Texture" id=11]
 
@@ -193,6 +194,11 @@
 12/z_index = 0
 
 [node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="fields" parent="CanvasLayer" instance=ExtResource( 6 )]
 
 [node name="YSort" type="YSort" parent="."]
 
