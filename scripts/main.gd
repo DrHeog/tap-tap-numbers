@@ -1,7 +1,7 @@
 extends Node
 
-var lobby : Node2D = preload("res://scenes/лобби/DungeonRoom#1.tscn").instance()
-var dungeon : Node2D = preload("res://scenes/комната №2/DungeonRoom#2.tscn").instance()
+var lobby : Node2D = preload("res://scenes/Lobby/DungeonRoom#1.tscn").instance()
+var dungeon : Node2D = preload("res://scenes/Room#2/DungeonRoom#2.tscn").instance()
 var timer : float = 0
 var first_go : bool = true
 
